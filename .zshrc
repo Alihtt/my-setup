@@ -28,6 +28,9 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Using eza for ls
 alias ls="eza --icons=always"
 
+# hyprland
+alias ml4w-hyprland='~/.config/ml4w/apps/ML4W_Hyprland_Settings-x86_64.AppImage'
+
 # History setup
 HISTFILE=$HOME/.zhistory
 SAVEHIST=1000
