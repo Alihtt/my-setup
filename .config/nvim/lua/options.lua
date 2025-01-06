@@ -14,6 +14,9 @@ o.ignorecase = true
 o.smartcase = true
 o.cursorline = true
 o.scrolloff = 10
+o.encoding = "utf-8"
+o.fileencoding = "utf-8"
+o.termbidi = true
 
 -- o.cursorlineopt ='both' -- to enable cursorline!
 

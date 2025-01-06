@@ -1,3 +1,9 @@
+# Use powerline
+USE_POWERLINE="true"
+# Has weird character width
+# Example:
+#    is not a diamond
+HAS_WIDECHARS="false"
 # vi mode
 bindkey -v
 export KEYTIMEOUT=1
@@ -9,6 +15,10 @@ type starship_zle-keymap-select >/dev/null || \
   {
     eval "$(/usr/bin/starship init zsh)"
   }
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 
 # ---- Zoxide (better cd) ----
